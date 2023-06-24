@@ -8,17 +8,10 @@ body {
   background-color: lightgray;
 }
 
-h1 {
+h1, h2, h3, h4 {
   text-align: center;
 }
 
-h2 {
-  text-align: center;
-}
-
-h4 {
-  text-align: center;
-}
 
 p {
   text-align: justify;
@@ -54,4 +47,12 @@ p {
 
 .projectList {
   margin: 0 10%;
+}
+
+.skills {
+  margin: 0 10%;
+}
+
+.skills li {
+  list-style-type: square;
 }
