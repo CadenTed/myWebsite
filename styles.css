@@ -50,3 +50,7 @@ p {
 .nav li a:hover {
   background-color: navy;
 }
+
+.projectList {
+  margin: 0 %10;
+}
