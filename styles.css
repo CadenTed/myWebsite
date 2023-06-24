@@ -1,10 +1,52 @@
 html {
-  font-family: Roboto, sans-serif;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 auto;
 }
-
-
 
 body {
   background-color: lightgray;
-  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  /* tab-size: 4; */
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: royalblue;
+  border-radius: .5em;
+  position: sticky;
+  top: .25em;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: navy;
 }
