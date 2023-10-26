@@ -18,6 +18,11 @@ p {
   margin: 0 10%;
 }
 
+img {
+  margin: 0 40%;
+  align-items: center;
+}
+
 .nav {
   list-style-type: none;
   margin: 0;
