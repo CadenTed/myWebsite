@@ -1,0 +1,199 @@
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    color: #4E555D;
+}
+
+html, body {
+    color: slategray;
+    background-color: #FAF9F6;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin-top: 2em;
+}
+
+
+
+div {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#skillsList li {
+    border: 1px lightskyblue solid;
+    background-color: lightskyblue;
+    text-align: center;
+    display: inline-block;
+    margin: 0.25em 0.5em; 
+    padding: 0.5em 1em;
+    border-radius: 5em;
+}
+
+#projectsList li {
+    border: 1px lightskyblue solid;
+    background-color: whitesmoke;
+    line-height: 4em;
+    border-radius: 1em;
+    padding: 0em 2em;
+    margin: 0 0.5em;
+    display: inline-block;
+    text-align: center;
+}
+
+h2 {
+    margin: 0 auto;
+}
+
+#info {
+    grid-area: personalInfo;
+    margin-bottom: -15em;
+    
+}
+
+#socials {
+    grid-area: socials;
+    margin-left: 0em;
+}
+
+#socials li{
+    float: left;
+    margin: 0 0.5em;
+}
+
+
+#about {
+    grid-area: about;
+    margin-top: -6em;
+    margin-right: 3em;
+    margin-left: 2em;
+    margin-bottom: -6em;
+}
+
+#skills {
+    grid-area: skills;
+    margin-top: -6em;
+}
+
+#projects {
+    grid-area: projects;
+    /* margin-right: 30%;  */
+}
+
+.hide {
+    visibility: hidden;
+}
+
+#name, #subtitle, #description, #gradgpa {
+/*    line-height: 0.5;*/
+    color: darkgray;
+    margin-right: 30%;
+}
+
+#name {
+    color: #4E555D;
+}
+
+#ccPopup {
+    padding-bottom: 1em;
+}
+
+#cgPopup{
+    padding-bottom: 1em;
+}
+
+#sqPopup {
+    padding-bottom: 1em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: 
+    'personalInfo projects projects' 
+    'personalInfo projects projects' 
+    'socials projects projects' 
+    'about projects projects' 
+    'skills projects projects';
+    column-gap: 0em;
+}
+
+.future-projects li{
+    display: inline-block;
+}
+
+.headshot {
+    float: right;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.tabspace {
+    margin-left: 1em;
+}
+
+/* Popup Boxes */
+
+.popup {
+    background: darkgray;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    height: auto;
+    z-index: 10;
+    border-radius:2em;
+    padding: 0 2em;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.ccDemoButton, .cgDemoButton, .sqRepo {
+    background: #969696;
+    padding: 0.5em;
+    border-radius: 1.5em;
+}
+
+.ccDemoButton:hover, .cgDemoButton:hover, .sqRepo:hover {
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }
+
+.overlay {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: -0.125em;
+    height: 120%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(1em);
+    z-index: 5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.lm:hover {
+    cursor: pointer;
+    color: #505D6B;
+}
+
+.close {
+    background: #969696;
+    border-radius: 50%;
+    border: none;
+    padding: .5em 0.75em;
+    float: right;
+    color: grey;
+    margin: 1em;
+  }
+  
+  .close:hover {
+    cursor: pointer;
+  }
