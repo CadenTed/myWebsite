@@ -1,164 +1,181 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="resources/style.css">
-    </head>
-    <body class="grid-container">
-    
-        <div id="info">
-            <img class="headshot" src="resources/headshot.jpg" alt="Avatar"> 
-            <h1 id="name">Caden Tedeschi</h1>
-            <p id="subtitle">Software Developer/Software Engineer</p>
-            <p id="description">Northern Arizona University Senior Majoring in Computer Science</p>
-            <p id="gradgpa">Expected Graduation: December 2024 | Current GPA: 3.35</p>
-            
-        </div>
-        
-        <div id="socials">
-            <ul>
-                <li>
-                    <a href="https://twitter.com/CadenTedeschi">
-                        <img src="resources/X_logo_2023_(white).png" height="45" width="45">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/cadentedeschi/">
-                        <img src="resources/702300.png" height="45" width="45">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/CadenTed">
-                        <img src="resources/github_logo.png" height="45" width="45">
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto: tedeschicaden@gmail.com">
-                        <img src="resources/email_icon.png" height="45" width="45">
-                    </a>
-                </li>
-            </ul>
-        </div>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <link href="resources/style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="grid-container">
 
-        <div class="overlay hide">
-        </div>
+<div id="info">
+    <img alt="Avatar" class="headshot" src="resources/headshot.jpg">
+    <h1 id="name">Caden Tedeschi</h1>
+    <p id="subtitle">Software Developer/Software Engineer</p>
+    <p id="description">Northern Arizona University Senior Majoring in Computer Science</p>
+    <p id="gradgpa">Expected Graduation: December 2024 | Current GPA: 3.35</p>
 
-        <div id="about">
-            <h4>About</h4>
-            <p>I am an undergraduate student pursuing a Bachelor of Science in Computer Science at Northern Arizona University. I am expecting to graduate the fall semester of 2024 with
-                a current GPA of 3.35. I am originally from Phoenix, Arizona with plans to move back after I graduate. In the meantime I am based out of Flagstaff, Arizona.
-                I am working on my skills as a game developer and software developer/engineer. I have completed numerous projects within the last year that show these skills being increased,
-                as well as more projects in the future to help show my growth.                
-            </p>
-        </div>
-        <div id="'skills">
-            <h4>Skills</h4>
-            <ul id="skillsList">
-                <li>C/C++/C#</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>Java</li>
-                <li>HTML/CSS</li>
-                <li>Unity</li>
-            </ul>
-        </div>
-        
-        <div id="projects">
-            <h2>Main Projects</h2>
-            <p>Here are the big projects that I have completed during my time at university.</p>
-            <ul id="projectsList">
-                <li class="bubble">Catnip Catcher<br>
-                    <span class="lmCC lm">Learn More</span></li>
-                <li class="bubble">SideQuests<br>
-                    <span class="lmSQ lm">Learn More</span></li>
-                <li class="bubble">CarGame<br>
-                    <span class="lmCG lm">Learn More</span></li>
-            </ul>
+</div>
 
-        <div id="ccPopup"  class="hide popup">
-            <button class="close" type="button">X</button>
-            <h3>Catnip Catcher</h3>
-            <p>Catnip Catcher is a prototype game that I started working on solo the summer of my Sophomore year. 
-                It is made using the 2D template of Unity, using Unity's built in C# functions as well as a few of my own.
-                Catnip Catcher is a 2D overhead perspective game where the player controls one of two cats. The goal is to 
-                get 15 bags of catnip as one these cats without losing all 9 lives. While trying to get the catnip, your owner
-                is trying to catch you. As more bags are gotten, more people appear to try and catch you and their speed increases.
-            </p>
-            <p>Demo Coming Soon!</p>
-            <span class="ccDemoButton">Play Demo</span>
-        </div>
+<div id="socials">
+    <ul>
+        <li>
+            <a href="https://twitter.com/CadenTedeschi">
+                <img height=45 src="resources/X_logo_2023_(white).png" width="45" alt="Twitter/X Icon">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/cadentedeschi/">
+                <img height="45" src="resources/702300.png" width="45" alt="LinkedIn Icon">
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/CadenTed">
+                <img height="45" src="resources/github_logo.png" width="45" alt="Github icon">
+            </a>
+        </li>
+        <li>
+            <a href="mailto: tedeschicaden@gmail.com">
+                <img height="45" src="resources/email_icon.png" width="45" alt="Email Icon">
+            </a>
+        </li>
+    </ul>
+</div>
 
-        <div id="sqPopup"  class="hide popup">
-            <button class="close" type="button">X</button>
-            <h3>SideQuests</h3>
-            <p>SideQuests was a group project during my second semester sophomore year for my Software Engineering class. This class taught skills of teamwork 
-                and development methods as well as working on a project as a team using the Agile Method. SideQuests was a MVP website that 
-                would "Gameify" completing tasks and goals that the user had set. Completion of tasks would reward points and rewards depending
-                on the amount of points a user has. We had future goals of being able to points and rewards with friends to incentivize completing
-                the tasks they had made.
-            </p>
-            <p>I had worked on the profile and rewards page. This page kept track of user information like name, date of birth, and occupation. It also
-                kept track of the points the user had gotten and displayed the correct trophies accordingly.
-            </p>
-            <span class="sqRepo"><a href="https://github.com/cs386-03/SideQuests">Github Repo</a></span>
-        </div>
+<div class="overlay hide">
+</div>
 
-        <div id="cgPopup"  class="hide popup">
-            <button class="close" type="button">X</button>
-            <h3>CarGame</h3>
-            <p>CarGame is a work in progress group project over during my first semester of junior year for my Virtual Worlds class. This class goes over game development
-                using the Unity game engine, with assignments throughout the semester showing of those skills learned. CarGame is a survival zombie driving game where the goal
-                is to kill as many zombies within 5 minutes. The player controls a truck with a plow that kills the zombies on impact at a certain speed. during the course
-                of the game there are power-ups spawned which either give more health to the player or explode the car and zombies around it. There are two types of zombies, normal
-                zombies and bomb zombies, hitting the bomb zombies have the same effect as the bomb power-up.
-            </p>
-            <p> I worked on the car movement, choppy at first but later smoothed out, and the title screen.</p>
-            <span class="cgDemoButton"><a href="https://cs413-cargame.github.io/CarGame/">Play Demo</a></span>
+<div id="about">
+    <h4>About</h4>
+    <p>I am an undergraduate student pursuing a Bachelor of Science in Computer Science at Northern Arizona University.
+        I am expecting to graduate the fall semester of 2024 with
+        a current GPA of 3.35. I am originally from Phoenix, Arizona with plans to move back after I graduate. In the
+        meantime I am based out of Flagstaff, Arizona.
+        I am working on my skills as a game developer and software developer/engineer. I have completed numerous
+        projects within the last year that show these skills being increased,
+        as well as more projects in the future to help show my growth.
+    </p>
+</div>
+<div id="'skills">
+    <h4>Skills</h4>
+    <ul id="skillsList">
+        <li>C/C++/C#</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>HTML/CSS</li>
+        <li>Unity</li>
+    </ul>
+</div>
 
-        </div>
+<div id="projects">
+    <h2>Main Projects</h2>
+    <p>Here are the big projects that I have completed during my time at university.</p>
+    <ul id="projectsList">
+        <li class="bubble">Catnip Catcher<br>
+            <span class="lmCC lm">Learn More</span></li>
+        <li class="bubble">SideQuests<br>
+            <span class="lmSQ lm">Learn More</span></li>
+        <li class="bubble">CarGame<br>
+            <span class="lmCG lm">Learn More</span></li>
+    </ul>
 
-            <h2>Future Project Ideas</h2>
-            <p>These are a couple projects that I have an idea for.</p>
-            <ul>
-                <li>Tactical Fighter</li>
-                <li>Catnip Catcher 3D</li>
-            </ul>
-            
-        <div id="tiny-container">
-            <ul class='future-projects'>
-                <li>
-                    <h3 class='tf'>Tactical Fighter</h3>
-                    <p class='tf'>Tactical Fighter is currently a C# Console Application game that I worked on during the summer of my Sophomore year of Univeristy. This game is a turn based fighting game
-                        with random encounters of four different enemies. The player has a choice of classes between Paladin, Knight, Ranger, Mage. I plan on implementing this game concept into Unity
-                        and making a graphical version of the game.
-                    </p>
-                </li>
-                
-                <li>
-                    <h3 class='cc'>Catnip Catcher 3D</h3>
-                    <p class='cc'>Catnip Catcher 3D is the 3-Dimensional version of the catnip catcher game I previously made. 
-    
-                    </p>
-                </li>
-                
-            </ul>
-            
-        </div>
-            <h2>Small Projects</h2>
-            <p>These are a few smaller assignments from my Virtual Worlds class</p>
-            <ul>
-                <li>Apple Picker</li>
-                <li class="tabspace"><a href="https://cadented.github.io/CS413_A2/">Demo</a></li>
-                <li>Boids</li>
-                <li class="tabspace"><a href="https://cadented.github.io/CS413_A3/">Demo</a></li>
-                <li>Mission Demolition</li>
-                <li class="tabspace"><a href="https://cadented.github.io/CS413_Mission_Demolition/">Demo</a></li>
-                <li>Space Shooter</li>
-                <li class="tabspace"><a href="https://cadented.github.io/CS413_SpaceShooter/">Demo</a></li>
-            </ul>
+    <div class="hide popup" id="ccPopup">
+        <button class="close" type="button">X</button>
+        <h3>Catnip Catcher</h3>
+        <p>Catnip Catcher is a prototype game that I started working on solo the summer of my Sophomore year.
+            It is made using the 2D template of Unity, using Unity's built in C# functions as well as a few of my own.
+            Catnip Catcher is a 2D overhead perspective game where the player controls one of two cats. The goal is to
+            get 15 bags of catnip as one these cats without losing all 9 lives. While trying to get the catnip, your
+            owner
+            is trying to catch you. As more bags are gotten, more people appear to try and catch you and their speed
+            increases.
+        </p>
+        <p>Demo Coming Soon!</p>
+        <span class="ccDemoButton">Play Demo</span>
+    </div>
 
-        </div>
+    <div class="hide popup" id="sqPopup">
+        <button class="close" type="button">X</button>
+        <h3>SideQuests</h3>
+        <p>SideQuests was a group project during my second semester sophomore year for my Software Engineering class.
+            This class taught skills of teamwork
+            and development methods as well as working on a project as a team using the Agile Method. SideQuests was an
+            MVP website that
+            would "Gameify" completing tasks and goals that the user had set. Completion of tasks would reward points
+            and rewards depending
+            on the amount of points a user has. We had future goals of being able to points and rewards with friends as
+            an incentive for completing the tasks they had made.
+        </p>
+        <p>I had worked on the profile and rewards page. This page kept track of user information like name, date of
+            birth, and occupation. It also
+            kept track of the points the user had gotten and displayed the correct trophies accordingly.
+        </p>
+        <span class="sqRepo"><a href="https://github.com/cs386-03/SideQuests">GitHub Repo</a></span>
+    </div>
 
-        <script src="resources/script.js"></script>
-    </body>
+    <div class="hide popup" id="cgPopup">
+        <button class="close" type="button">X</button>
+        <h3>CarGame</h3>
+        <p>CarGame is a work in progress group project over during my first semester of junior year for my Virtual
+            Worlds class. This class goes over game development
+            using the Unity game engine, with assignments throughout the semester showing of those skills learned.
+            CarGame is a survival zombie driving game where the goal
+            is to kill as many zombies within 5 minutes. The player controls a truck with a plow that kills the zombies
+            on impact at a certain speed. during the course
+            of the game there are power-ups spawned which either give more health to the player or explode the car and
+            zombies around it. There are two types of zombies, normal
+            zombies and bomb zombies, hitting the bomb zombies have the same effect as the bomb power-up.
+        </p>
+        <p> I worked on the car movement, choppy at first but later smoothed out, and the title screen.</p>
+        <span class="cgDemoButton"><a href="https://cs413-cargame.github.io/CarGame/">Play Demo</a></span>
+
+    </div>
+
+    <h2>Future Project Ideas</h2>
+    <p>These are a couple projects that I have an idea for.</p>
+    <ul>
+        <li>Tactical Fighter</li>
+        <li>Catnip Catcher 3D</li>
+    </ul>
+
+    <div id="tiny-container">
+        <ul class='future-projects'>
+            <li>
+                <h3 class='tf'>Tactical Fighter</h3>
+                <p class='tf'>Tactical Fighter is currently a C# Console Application game that I worked on during the
+                    summer of my Sophomore year of University. This game is a turn based fighting game
+                    with random encounters of four different enemies. The player has a choice of classes between
+                    Paladin, Knight, Ranger, Mage. I plan on implementing this game concept into Unity
+                    and making a graphical version of the game.
+                </p>
+            </li>
+
+            <li>
+                <h3 class='cc'>Catnip Catcher 3D</h3>
+                <p class='cc'>Catnip Catcher 3D is the 3-Dimensional version of the catnip catcher game I previously
+                    made.
+
+                </p>
+            </li>
+
+        </ul>
+
+    </div>
+    <h2>Small Projects</h2>
+    <p>These are a few smaller assignments from my Virtual Worlds class</p>
+    <ul>
+        <li>Apple Picker</li>
+        <li class="tabspace"><a href="https://cadented.github.io/CS413_A2/">Demo</a></li>
+        <li>Boids</li>
+        <li class="tabspace"><a href="https://cadented.github.io/CS413_A3/">Demo</a></li>
+        <li>Mission Demolition</li>
+        <li class="tabspace"><a href="https://cadented.github.io/CS413_Mission_Demolition/">Demo</a></li>
+        <li>Space Shooter</li>
+        <li class="tabspace"><a href="https://cadented.github.io/CS413_SpaceShooter/">Demo</a></li>
+    </ul>
+
+</div>
+
+<script src="resources/script.js"></script>
+</body>
 </html>
