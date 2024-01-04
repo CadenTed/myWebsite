@@ -38,7 +38,7 @@ div {
     background-color: whitesmoke;
     line-height: 4em;
     border-radius: 1em;
-    padding: 0em 2em;
+    padding: 0 2em;
     margin: 0 0.5em;
     display: inline-block;
     text-align: center;
@@ -50,12 +50,12 @@ h2 {
 
 #info {
     grid-area: personalInfo;
-    margin-bottom: -20em;
+    margin-bottom: -450px;
 }
 
 #socials {
     grid-area: socials;
-    /*margin-bottom: ;*/
+    /*margin-bottom: -100px;*/
 }
 
 #socials li{
@@ -66,7 +66,7 @@ h2 {
 
 #about {
     grid-area: about;
-    margin: -2rem 3em -8em 2em;
+    margin: -150px 3em -8em 2em;
 }
 
 #skills {
@@ -113,7 +113,7 @@ h2 {
     'socials projects projects' 
     'about projects projects' 
     'skills projects projects';
-    column-gap: 0em;
+    column-gap: 0;
 }
 
 .future-projects li{
