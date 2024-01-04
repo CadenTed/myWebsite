@@ -50,13 +50,13 @@ h2 {
 
 #info {
     grid-area: personalInfo;
-    margin-bottom: -15em;
-    
+
 }
 
 #socials {
     grid-area: socials;
-    margin-left: 0em;
+    margin-top: -13em;
+    margin-left: 0;
 }
 
 #socials li{
@@ -67,15 +67,12 @@ h2 {
 
 #about {
     grid-area: about;
-    margin-top: -6em;
-    margin-right: 3em;
-    margin-left: 2em;
-    margin-bottom: -6em;
+    margin: -15em 3em -15em 2em;
 }
 
 #skills {
     grid-area: skills;
-    margin-top: -6em;
+    /*margin-top: -em;*/
 }
 
 #projects {
