@@ -134,7 +134,7 @@ h2 {
 /* Popup Boxes */
 
 .popup {
-    background: darkgray;
+    background-color: #FAF9F6;
     position: absolute;
     text-align: center;
     top: 30%;
@@ -148,7 +148,7 @@ h2 {
 }
 
 .ccDemoButton, .cgDemoButton, .sqRepo {
-    background: #969696;
+    background-color: #e0dfdc;
     padding: 0.5em;
     border-radius: 1.5em;
 }
@@ -181,7 +181,7 @@ h2 {
 }
 
 .close {
-    background: #969696;
+    background: #e0dfdc;
     border-radius: 50%;
     border: none;
     padding: .5em 0.75em;
@@ -190,6 +190,11 @@ h2 {
     margin: 1em;
   }
   
-  .close:hover {
+.close:hover {
     cursor: pointer;
-  }
+}
+
+.bubble {
+    width: 150px;
+    height: auto;
+}
