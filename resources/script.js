@@ -7,6 +7,7 @@ const lmSQ = document.querySelector(".lmSQ")
 const lmCG = document.querySelector(".lmCG")
 const overlay = document.querySelector(".overlay")
 const closeBtn = document.querySelectorAll(".close")
+const body = document.querySelector("body")
 
 
 //////////////////////////////////////////Event Listeners//////////////////////////////////////////
@@ -14,6 +15,8 @@ const closeBtn = document.querySelectorAll(".close")
 lmCC.addEventListener("click", (event) => {
     ccPopup.classList.remove("hide");
     overlay.classList.remove("hide");
+	body.style.overflow = "hidden";
+    body.style.height = "100%";
 })
 
 lmSQ.addEventListener("click", (event) => {
@@ -40,4 +43,4 @@ for (let index = 0; index < closeBtn.length; index++) {
         sqPopup.classList.add("hide");
         ccPopup.classList.add("hide");
     });
-  }s
+  }
