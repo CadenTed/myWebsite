@@ -2,9 +2,11 @@ const popup = document.querySelectorAll(".popup")
 const ccPopup = document.querySelector("#ccPopup")
 const sqPopup = document.querySelector("#sqPopup")
 const cgPopup = document.querySelector("#cgPopup")
+const scPopup = document.querySelector("#scPopup")
 const lmCC = document.querySelector(".lmCC")
 const lmSQ = document.querySelector(".lmSQ")
 const lmCG = document.querySelector(".lmCG")
+const lmSC = document.querySelector(".lmSC")
 const overlay = document.querySelector(".overlay")
 const closeBtn = document.querySelectorAll(".close")
 const body = document.querySelector("body")
@@ -29,11 +31,17 @@ lmCG.addEventListener("click", (event) => {
     cgPopup.classList.remove("hide");
 })
 
+lmSC.addEventListener("click", () => {
+    overlay.classList.remove("hide")
+    scPopup.classList.remove("hide")
+})
+
 overlay.addEventListener("click", (event) =>{
     overlay.classList.add("hide");
     cgPopup.classList.add("hide");
     sqPopup.classList.add("hide");
     ccPopup.classList.add("hide");
+    scPopup.classList.add("hide");
 })
 
 for (let index = 0; index < closeBtn.length; index++) {
@@ -42,5 +50,6 @@ for (let index = 0; index < closeBtn.length; index++) {
         cgPopup.classList.add("hide");
         sqPopup.classList.add("hide");
         ccPopup.classList.add("hide");
+        scPopup.classList.add("hide");
     });
   }
