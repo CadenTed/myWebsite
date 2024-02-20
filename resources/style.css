@@ -218,6 +218,7 @@ h2 {
     margin-right: 89%;
     border-radius: 1.5em;
     box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 4px 15px 0 rgba(0,0,0,0.19);
+    text-align: center;
 }
 
 .demo:hover {
