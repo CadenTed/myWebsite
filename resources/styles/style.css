@@ -1,0 +1,18 @@
+/* 
+Primary Color: #1E90FF
+Secondary Color: #0A74DA
+Accent Color: 87CEFA
+Neutral Color: #FFF (BACKGROUND)
+Neutral Color: #F5F5F5 (SUBTLE BACKGROUNDS)
+Text Color: #333
+Highlight Color: #008080
+ */
+
+body {
+  background-color: #fff;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+}
