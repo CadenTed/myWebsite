@@ -10,9 +10,16 @@ Highlight Color: #008080
 
 body {
   background-color: #fff;
+  color: #333;
 }
 
 nav li {
   display: inline;
   list-style-type: none;
+}
+
+#soft-skills li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
 }
