@@ -1,21 +1,55 @@
 /* 
 Primary Color: #1E90FF
 Secondary Color: #0A74DA
-Accent Color: 87CEFA
+Accent Color: #87CEFA
 Neutral Color: #FFF (BACKGROUND)
 Neutral Color: #F5F5F5 (SUBTLE BACKGROUNDS)
 Text Color: #333
 Highlight Color: #008080
+Color Scheme Created by ChatGPT
  */
+
+:is(h1, h2, h3, h4, h5, h6, th) {
+  font-family: "Playfair Display", serif;
+}
+
+:is(p, td, ul) {
+  font-family: "Montserrat", sans-serif;
+}
 
 body {
   background-color: #fff;
   color: #333;
 }
 
-nav li {
-  display: inline;
+#nav li {
+  display: inline-block;
   list-style-type: none;
+  font-size: 25px;
+  padding-top: 0.6em;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: 0;
+}
+
+#nav {
+  background-color: #0a74da;
+  height: 4em;
+  width: 100%;
+  border-radius: 3px;
+  padding: 0.5em;
+}
+
+#nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+#projects-button {
+  background-color: #1e90ff;
+  height: 100%;
+  box-shadow: 0 5px 5px black;
+  border-radius: 3px;
 }
 
 #soft-skills li {
@@ -29,7 +63,6 @@ nav li {
   grid-template-columns: 1fr / 1fr / 1fr;
   gap: 8px;
   justify-content: center;
-  
 }
 
 .large-box {
@@ -55,16 +88,69 @@ nav li {
 }
 
 #crater {
-    grid-column: 1;
-    grid-row: 1;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 #side {
-    grid-column: 2;
-    grid-row: 1;
+  grid-column: 2;
+  grid-row: 1;
 }
 
 #car {
-    grid-column: 3;
-    grid-row: 1
+  grid-column: 3;
+  grid-row: 1;
+}
+
+table {
+  margin: 0 auto;
+  table-layout: fixed;
+  width: 80%;
+  border: 2px solid #333;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  border-spacing: 0;
+}
+
+tr {
+  height: 70%;
+}
+
+tr:nth-child(even) {
+  background-color: #0a74da;
+  color: #fff;
+}
+
+td {
+  padding: 1em;
+  border-right: 2px solid rgba(51, 51, 51, 0.5);
+}
+
+th {
+  border-bottom: 2px solid #333;
+  padding: 0.75em;
+}
+
+#bottom-left {
+  border-radius: 0 0 0 20px;
+}
+
+#bottom-right {
+  border-radius: 0 0 20px 0;
+}
+
+#left-header {
+  border-right: 2px solid #333;
+}
+
+#right-header {
+  border-right: 0;
+}
+
+#middle-left {
+  border-right: 2px solid #333;
+}
+
+#middle-right {
+  border-right: 2px solid #333;
 }

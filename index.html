@@ -8,21 +8,24 @@
       type="image/x-icon"
       href="/resources/Website_Favicon.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <main>
-      <header>
-        <nav>
-          <li>Home</li>
-          <li>Skills</li>
-          <li>Projects</li>
-          <li>Other</li>
-        </nav>
+      <header id="home">
+        <ul id="nav">
+          <li><a href="#home">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li id="projects-button"><a href="#projects">Projects</a></li>
+          <li><a href="#education">Other</a></li>
+        </ul>
       </header>
       <section id="bio">
         <h1>Caden Tedeschi</h1>
         <h3>Software Developer</h3>
-        <h5>Northern Arizona University</h5>
+        <h3>Northern Arizona University</h5>
         <p>
           I am an undergraduate student pursuing a Bachelor of Science in
           Computer Science at Northern Arizona University. I am expecting to
@@ -39,10 +42,10 @@
         <table>
           <thead>
             <tr>
-              <th>Front End Skills</th>
-              <th>Back End Skills</th>
-              <th>Mobile Development Skills</th>
-              <th>Game Development Skills</th>
+              <th id="left-header">Front End Skills</th>
+              <th id="middle-left">Back End Skills</th>
+              <th id="middle-right">Mobile Development Skills</th>
+              <th id="right-header">Game Development Skills</th>
             </tr>
           </thead>
           <tbody>
@@ -61,18 +64,26 @@
             <tr>
               <td>JavaScript</td>
               <td>C#</td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               <td>Github</td>
               <td>Java</td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               <td>Git</td>
               <td>Python</td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
-              <td></td>
-              <td>MySQL</td>
+              <td id="bottom-left last-col"></td>
+              <td id="last-col">MySQL</td>
+              <td id="last-col"></td>
+              <td id="bottom-right last-col"></td>
             </tr>
           </tbody>
         </table>
@@ -99,9 +110,21 @@
       </section>
       <section id="education">
         <h3><strong>Education</strong></h3>
+        <h4>Northern Arizona University</h4>
+        <h4>Bachelor of Science in Computer Science</h4>
+        <h4>Graduating December 2024</h4>
+        <h4>GPA: 3.31</h4>
       </section>
       <section id="work">
         <h3><strong>Work Experience</strong></h3>
+        <h4>Recreation Leader I</h4>
+        <h4>City of Flagstaff</h4>
+        <h5>Apr 2023 - Present</h5>
+        <p>As a Recreation Leader for the City of Flagstaff it is my responibility to greet patrons, answer phone calls, train new staff members, engage with the public, and perform any additional duties required.</p>
+        <h4>Project Lead</h4>
+        <h4>EMR CPR LLC</h4>
+        <h5>Contract in Febuary 2023</h5>
+        <p>As a project lead it was my job to lead a team of 3 technicians around the Gen office building taking down marked workstations and reassembling them in a neat and similar way as they were in the previous location.</p>
       </section>
     </main>
   </body>
