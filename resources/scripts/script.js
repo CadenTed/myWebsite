@@ -1,55 +1,34 @@
-const popup = document.querySelectorAll(".popup")
-const ccPopup = document.querySelector("#ccPopup")
-const sqPopup = document.querySelector("#sqPopup")
-const cgPopup = document.querySelector("#cgPopup")
-const scPopup = document.querySelector("#scPopup")
-const lmCC = document.querySelector(".lmCC")
-const lmSQ = document.querySelector(".lmSQ")
-const lmCG = document.querySelector(".lmCG")
-const lmSC = document.querySelector(".lmSC")
-const overlay = document.querySelector(".overlay")
-const closeBtn = document.querySelectorAll(".close")
-const body = document.querySelector("body")
+const craterPopup = document.getElementById("crater-popup");
+const crater = document.getElementById("crater");
+const carPopup = document.getElementById("cargame-popup");
+const car = document.getElementById("car");
 
+const craterSpan = document.getElementsByClassName("close")[0];
+const carSpan = document.getElementsByClassName("close")[1];
+const sidePSpan = document.getElementsByClassName("close")[2];
 
-//////////////////////////////////////////Event Listeners//////////////////////////////////////////
+crater.onclick = () => {
+  craterPopup.style.display = "block";
+};
 
-lmCC.addEventListener("click", (event) => {
-    ccPopup.classList.remove("hide");
-    overlay.classList.remove("hide");
-	body.style.overflow = "hidden";
-    body.style.height = "100%";
-})
+craterSpan.onclick = () => {
+  craterPopup.style.display = "none";
+};
+car.onclick = () => {
+  carPopup.style.display = "block";
+};
 
-lmSQ.addEventListener("click", (event) => {
-    overlay.classList.remove("hide");
-    sqPopup.classList.remove("hide");
-})
+carSpan.onclick = () => {
+  carPopup.style.display = "none";
+};
 
-lmCG.addEventListener("click", (event) => {
-    overlay.classList.remove("hide");
-    cgPopup.classList.remove("hide");
-})
-
-lmSC.addEventListener("click", () => {
-    overlay.classList.remove("hide")
-    scPopup.classList.remove("hide")
-})
-
-overlay.addEventListener("click", (event) =>{
-    overlay.classList.add("hide");
-    cgPopup.classList.add("hide");
-    sqPopup.classList.add("hide");
-    ccPopup.classList.add("hide");
-    scPopup.classList.add("hide");
-})
-
-for (let index = 0; index < closeBtn.length; index++) {
-    closeBtn[index].addEventListener("click", (event) =>{
-        overlay.classList.add("hide");
-        cgPopup.classList.add("hide");
-        sqPopup.classList.add("hide");
-        ccPopup.classList.add("hide");
-        scPopup.classList.add("hide");
-    });
+window.onclick = (event) => {
+  if (
+    event.target == craterPopup ||
+    event.target == carPopup ||
+    event.target == sidePopup
+  ) {
+    craterPopup.style.display = "none";
+    carPopup.style.display = "none";
   }
+};
