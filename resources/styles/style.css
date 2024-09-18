@@ -20,16 +20,18 @@ Color Scheme Created by ChatGPT
 body {
   background-color: #fff;
   color: #333;
+  overflow-x: hidden;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
 }
 
 .nav li {
   display: inline-block;
   list-style-type: none;
   font-size: 25px;
-  padding-top: 0.6em;
-  padding-right: 2em;
-  padding-left: 2em;
-  padding-bottom: 0;
+  padding: 0.6em 2em 0;
 }
 
 .nav {
@@ -69,8 +71,6 @@ body {
 
 .large-box {
   background-color: #0a74da;
-  height: 350px;
-  width: 350px;
   border-radius: 3px;
   color: #f5f5f5;
 }
@@ -91,6 +91,14 @@ body {
   text-align: center;
 }
 
+.grid_panel {
+  border-radius: 3px;
+  border: 3px solid #0a74da;
+  text-align: center;
+  background-color: #0a74da;
+  color: #f5f5f5;
+}
+
 #crater {
   grid-column: 1;
   grid-row: 1;
@@ -109,6 +117,13 @@ body {
 #side {
   grid-column: 2;
   grid-row: 1;
+
+  height: 345px;
+}
+
+#side:hover {
+  cursor: pointer;
+  box-shadow: 0 0 3px 2px rgba(10, 116, 218, 0.75);
 }
 
 #car {
@@ -119,9 +134,21 @@ body {
   text-align: center;
   background-color: #0a74da;
   color: #f5f5f5;
+  height: 300px;
 }
 
 #car:hover {
+  cursor: pointer;
+  box-shadow: 0 0 3px 2px rgba(10, 116, 218, 0.75);
+}
+
+#blog {
+  grid-column: 2;
+  grid-row: 2;
+  width: 275px;
+}
+
+#blog:hover {
   cursor: pointer;
   box-shadow: 0 0 3px 2px rgba(10, 116, 218, 0.75);
 }
@@ -183,7 +210,7 @@ th {
   border-right: 2px solid #333;
 }
 
-#last-col {
+.last-col {
   border-right: none;
 }
 
@@ -258,7 +285,7 @@ th {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 40%;
   text-align: center;
   border-radius: 16px;
 }
@@ -275,4 +302,70 @@ th {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #0a74da;
+  background-color: #0a74da;
+  margin: 3em 3em 0 3em;
+  border-radius: 18px 18px 0 0;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: #333;
+  font-family: "Crimson Pro", serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #0a74da;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #87cefa;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  margin: 0 3em 3em 3em;
+  animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.project-link {
+  background-color: #87CEFA;
+  padding: 0.75em;
+  border-radius: 18px;
+  text-decoration: none;
+  color: #333;
+}
+
+.project-link:hover {
+  background-color: #0a74da;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.project-link:visited {
+  text-decoration: none;
+  color: #333;
 }

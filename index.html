@@ -26,9 +26,9 @@
       <section id="bio">
         <div id="primary-info">
           <h1 id="name">Caden Tedeschi</h1>
-          <img src="resources/Headshot.jpeg" height="200px" width="200" alt="Headshot photo of Caden Tedeschi" id="headshot">
+          <img src="resources/Headshot.jpeg" height="200px" width="200px" alt="Headshot photo of Caden Tedeschi" id="headshot">
           <h3 id="role">Software Developer</h3>
-          <h3 id="school">Northern Arizona University</h5>
+          <h3 id="school">Northern Arizona University</h3>
         </div>
         <p id="secondary-info">
           &emsp;I am an undergraduate student pursuing a Bachelor of Science in Computer
@@ -55,33 +55,33 @@
           <tbody>
             <tr>
               <td>HTML</td>
-              <td>React.js</td>
+              <td>P/E/R/N Stack</td>
               <td>Swift</td>
-              <td id="last-col">Unity</td>
+              <td class="last-col">Unity</td>
             </tr>
             <tr>
               <td>CSS</td>
               <td>C/C++</td>
               <td>SwiftUI</td>
-              <td id="last-col">Unreal Engine 5</td>
+              <td class="last-col">Unreal Engine 5</td>
             </tr>
             <tr>
               <td>JavaScript</td>
               <td>C#</td>
               <td></td>
-              <td id="last-col"></td>
+              <td class="last-col"></td>
             </tr>
             <tr>
-              <td>Github</td>
+              <td>GitHub</td>
               <td>Java</td>
               <td></td>
-              <td id="last-col"></td>
+              <td class="last-col"></td>
             </tr>
             <tr>
               <td>Git</td>
               <td>Python</td>
               <td></td>
-              <td id="last-col"></td>
+              <td class="last-col"></td>
             </tr>
             <tr>
               <td id="bottom-left"></td>
@@ -102,34 +102,43 @@
         </ul>
       </section>
       <section id="projects">
-        <a id="crater">
+        <a id="crater" class="grid_panel">
           <h4>Craterstats</h4>
-          <img class="large-box" src="resources/00-demo.png" alt="Moon">
+          <img class="large-box" width="350px" src="resources/00-demo.png" alt="Craterstats Demo graph">
         </a>
-        <article class="small-box" id="side">
+        <a id="side" class="grid_panel">
           <h4>SideQuests</h4>
-        </article>
-        <a id="car">
+          <img class="large-box" width="425px" src="resources/SQReadMe.png" alt="SideQuests website ReadME">
+        </a>
+        <a id="car" class="grid_panel">
             <h4>CarGame</h4>
-            <img class="large-box" src="resources/CarGameTitle.png" alt="Title of CarGame">
+            <img class="large-box" width="384" src="resources/CarGameTitle.png" alt="Title Screen of CarGame">
+        </a>
+        <a id="blog" class="grid_panel">
+            <h4>Blog Space</h4>
+          <img class="large-box" width="264" src="resources/BlogSpace.png" alt="Blog Space sign in">
         </a>
       </section>
-      <section id="education">
+      <div class="tab">
+        <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'education')">Education</button>
+        <button class="tablinks" onclick="openTab(event, 'work')">Work Experience</button>
+      </div>
+      <section id="education" class="tabcontent">
         <h3><strong>Education</strong></h3>
         <h4>Northern Arizona University</h4>
         <h4>Bachelor of Science in Computer Science</h4>
-        <h4>Graduating December 2024</h4>
+        <h4>Graduating in December 2024</h4>
         <h4>GPA: 3.31</h4>
       </section>
-      <section id="work">
+      <section id="work" class="tabcontent">
         <h3><strong>Work Experience</strong></h3>
         <h4>Recreation Leader I</h4>
         <h4>City of Flagstaff</h4>
         <h5>Apr 2023 - Present</h5>
-        <p>As a Recreation Leader for the City of Flagstaff it is my responibility to greet patrons, answer phone calls, train new staff members, engage with the public, and perform any additional duties required.</p>
+        <p>As a Recreation Leader for the City of Flagstaff it is my responsibility to greet patrons, answer phone calls, train new staff members, engage with the public, and perform any additional duties required.</p>
         <h4>Project Lead</h4>
         <h4>EMR CPR LLC</h4>
-        <h5>Contract in Febuary 2023</h5>
+        <h5>Contract in February 2023</h5>
         <p>As a project lead it was my job to lead a team of 3 technicians around the Gen office building taking down marked workstations and reassembling them in a neat and similar way as they were in the previous location.</p>
       </section>
 
@@ -141,10 +150,10 @@
           <p>Craterstats is a program created by the United States Geological Survey (USGS). It is a tool to analyze and plot crater count data for planetary surfacing. The current version is developed by Greg Michael.</p>
           <p>My contribution to this program is through my Senior Capstone which is sponsored by Trent Hare of the USGS. Me and a team of 4 other classmates are tasked with creating
             a Graphical User Interface (GUI) for the current version of craterstats. This current version is a python command line application. We have decided to make the GUI using 
-            the flet python library which is an extension of flutter. I have developed the current prototype which can be found in the Github Repo listed below. More information and technical documentation about this project can be found at the website below.
+            the flet python library which is an extension of flutter. I have developed the current prototype which can be found in the GitHub Repo listed below. More information and technical documentation about this project can be found at the website below.
           </p>
-          <a>Github</a>
-          <a>Project Website</a>
+          <a class="project-link" href="https://github.com/LWATLINGTON02/CraterStats-Capstone">GitHub</a>
+          <a class="project-link" href="https://ceias.nau.edu/capstone/projects/CS/2024/LunarPitPatrol_S24/">Project Website</a>
         </div>
       </section>
 
@@ -152,15 +161,47 @@
         <div class="modal-content">
           <span class="close">&times;</span>
           <h2>CarGame</h2>
-          <p>CarGame is a game developed by me and 4 classmates for a end of semester project in our Virtual Worlds class. Virtual Worlds is a class to teach about Unity and C# developement, while also teaching techniques of base game developement.</p>
+          <p>CarGame is a game developed by me and 4 classmates for an end of semester project in our Virtual Worlds class. Virtual Worlds is a class to teach about Unity and C# development, while also teaching techniques of base game development.</p>
           <p>My contribution to this game is developing the car mechanics as well as some basic small details around the game.</p>
-          <p>The next semester I took an inependent study course with Profesoor Ashish Amresh. During this study it was my goal to upgrade the game by making it co-op multiplayer and then online multiplayer. After these new versions were created, I then had to recreate the game using Unity's Entity Component System (ECS). After converting the base game to ECS, another student, Siddharth Subramanian, and I collaberated on making the newly ECS game into a multiplayer game. This study was to help Siddharth in his masters thesis of implementing generative AI into game developement.</p>
-          <a>Group Github</a>
-          <a>Study Github</a>
+          <p>The next semester I took an independent study course with Professor Ashish Amresh. During this study it was my goal to upgrade the game by making it co-op multiplayer and then online multiplayer. After these new versions were created, I then had to recreate the game using Unity's Entity Component System (ECS). After converting the base game to ECS, another student, Siddharth Subramanian, and I collaborated on making the newly ECS game into a multiplayer game. This study was to help Siddharth in his master’s thesis of implementing generative AI into game development.</p>
+          <a class="project-link" href="https://github.com/CS413-CarGame/CarGame">Group GitHub</a>
+          <a class="project-link" href="https://github.com/CadenTed/CarGameMulti">Study GitHub</a>
+        </div>
+      </section>
+
+      <section class="modal" id="side-popup">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Side Quests</h2>
+          <p>
+            Side Quests is a website that 5 of my classmates and I developed during our sophomore year for our Software Engineering class.
+            The website was designed to be a task tracking website that would reward points and "experience points" once a task is complete.
+            The user would also be able to compare levels and rewards with their friends to entice them to complete tasks.
+          </p>
+          <p>My contribution to this project was to create the profile and rewards page. On this page both the information of the user
+          that is logged in is displayed and the rewards they have received for the tasks completed.</p>
+          <p>While the website itself is no longer active the GitHub page with all the code still is.</p>
+          <a class="project-link">GitHub</a>
+        </div>
+      </section>
+
+      <section class="modal" id="blog-popup">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Blog Space</h2>
+          <p>Blog space is a small website using Express.js for my Web Development II course. This mini project was to create
+            a dynamic website using Express.js and Bootstrap to create posts that are editable and deletable through HTTPS Request Methods
+          </p>
+          <a class="project-link" href="https://github.com/cs386-03/SideQuests">GitHub</a>
         </div>
       </section>
 
     </main>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        document.getElementById("defaultOpen").click();
+      });
+    </script>
     <script src="./resources/scripts/script.js"></script>
   </body>
 </html>
