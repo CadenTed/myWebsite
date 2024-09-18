@@ -1,200 +1,207 @@
 <!DOCTYPE html>
-<!--suppress ALL -->
 <html lang="en">
-<head>
-    <title>My Portfolio</title>
-    <link href="resources/style.css" rel="stylesheet" type="text/css">
-    <link rel="icon" tpye="image/x-icon" href="resources/Website_Favicon.png">
-</head>
-<body class="grid-container">
-
-<div id="info">
-    <img alt="Avatar" class="headshot" src="resources/Headshot.jpeg">
-    <h1 id="name">Caden Tedeschi</h1>
-    <p id="subtitle">Software Developer/Software Engineer</p>
-    <p id="description">Northern Arizona University Senior Majoring in Computer Science</p>
-    <p id="gradgpa">Expected Graduation: December 2024 | Current GPA: 3.35</p>
-
-</div>
-
-<div id="socials">
-    <ul>
-        <li>
-            <a class="link" href="https://twitter.com/CadenTedeschi">
-                <img height="45" src="resources/X_logo_2023_(white).png" width="45" alt="Twitter/X Icon">
-            </a>
-        </li>
-        <li>
-            <a class="link" href="https://www.linkedin.com/in/cadentedeschi/">
-                <img height="45" src="resources/702300.png" width="45" alt="LinkedIn Icon">
-            </a>
-        </li>
-        <li>
-            <a class="link" href="https://github.com/CadenTed">
-                <img height="45" src="resources/github_logo.png" width="45" alt="Github icon">
-            </a>
-        </li>
-        <li>
-            <a class="link" href="mailto: tedeschicaden@gmail.com">
-                <img height="45" src="resources/email_icon.png" width="45" alt="Email Icon">
-            </a>
-        </li>
-    </ul>
-</div>
-
-<div class="overlay hide">
-</div>
-
-<div id="about">
-    <h4>About</h4>
-    <p>I am an undergraduate student pursuing a Bachelor of Science in Computer Science at Northern Arizona University.
-        I am expecting to graduate the fall semester of 2024 with
-        a current GPA of 3.35. I am originally from Phoenix, Arizona with plans to move back after I graduate. In the
-        meantime I am based out of Flagstaff, Arizona.
-        I am working on my skills as a game developer and software developer/engineer. I have completed numerous
-        projects within the last year that show these skills being increased,
-        as well as more projects in the future to help show my growth.
-    </p>
-</div>
-<div id="'skills">
-    <h4>Skills</h4>
-    <ul id="skillsList">
-        <li>C/C++/C#</li>
-        <li>Python</li>
-        <li>JavaScript</li>
-        <li>Java</li>
-        <li>HTML/CSS</li>
-        <li>Unity</li>
-    </ul>
-</div>
-
-<div id="projects">
-    <h2>Main Projects</h2>
-    <p>Here are the big projects that I have completed during my time at university.</p>
-    <ul id="projectsList">
-        <li class="bubble">Catnip Catcher<br>
-            <span class="lmCC lm">Learn More</span></li>
-        <li class="bubble">SideQuests<br>
-            <span class="lmSQ lm">Learn More</span></li>
-        <li class="bubble">CarGame<br>
-            <span class="lmCG lm">Learn More</span></li>
-        <li class="bubble">Lunar Pit Patrol<br>
-            <span class="lmSC lm">Learn More
-            </span></li>
-    </ul>
-
-    <div class="hide popup" id="ccPopup">
-        <button class="close" type="button">X</button>
-        <h3>Catnip Catcher</h3>
-        <p>Catnip Catcher is a prototype game that I started working on solo the summer of my Sophomore year.
-            It is made using the 2D template of Unity, using Unity's built in C# functions as well as a few of my own.
-            Catnip Catcher is a 2D overhead perspective game where the player controls one of two cats. The goal is to
-            get 15 bags of catnip as one these cats without losing all 9 lives. While trying to get the catnip, your
-            owner
-            is trying to catch you. As more bags are gotten, more people appear to try and catch you and their speed
-            increases.
-        </p>
-        <p>Demo Coming Soon!</p>
-    </div>
-
-    <div class="hide popup" id="sqPopup">
-        <button class="close" type="button">X</button>
-        <h3>SideQuests</h3>
-        <p>SideQuests was a group project during my second semester sophomore year for my Software Engineering class.
-            This class taught skills of teamwork
-            and development methods as well as working on a project as a team using the Agile Method. SideQuests was an
-            MVP website that
-            would "Gameify" completing tasks and goals that the user had set. Completion of tasks would reward points
-            and rewards depending
-            on the amount of points a user has. We had future goals of being able to points and rewards with friends as
-            an incentive for completing the tasks they had made.
-        </p>
-        <p>I had worked on the profile and rewards page. This page kept track of user information like name, date of
-            birth, and occupation. It also
-            kept track of the points the user had gotten and displayed the correct trophies accordingly.
-        </p>
-        
-        <span class="sqRepo"><a class="link" href="https://github.com/cs386-03/SideQuests">GitHub Repo</a></span>
-    </div>
-
-    <div class="hide popup" id="cgPopup">
-        <button class="close" type="button">X</button>
-        <h3>CarGame</h3>
-        <p>CarGame is a work in progress group project over during my first semester of junior year for my Virtual
-            Worlds class. This class goes over game development
-            using the Unity game engine, with assignments throughout the semester showing of those skills learned.
-            CarGame is a survival zombie driving game where the goal
-            is to kill as many zombies within 5 minutes. The player controls a truck with a plow that kills the zombies
-            on impact at a certain speed. during the course
-            of the game there are power-ups spawned which either give more health to the player or explode the car and
-            zombies around it. There are two types of zombies, normal
-            zombies and bomb zombies, hitting the bomb zombies have the same effect as the bomb power-up.
-        </p>
-        <p> I worked on the car movement, choppy at first but later smoothed out, and the title screen.</p>
-        <p>
-            I am currently working on a new multiplayer feature using Unity's Netcode for GameObjects. I will also
-            be working on turning the original single player game into an Entity Component System with Unity's Data
-            Oriented Technology Stack rather than it being an Object Oriented. This is for an independent study
-            under Professor Ashish Amresh.
-        </p>
-        <span class="cgDemoButton"><a class="link" href="https://cs413-cargame.github.io/CarGame/">Play Demo</a></span>
-        <span class="cgmRepo"><a class="link" href="https://github.com/CadenTed/CarGameMulti">Multiplayer Repo</a></span>
-    </div>
-
-    <div class="hide popup" id="scPopup">
-        <button class="close" type="button">X</button>
-        <h3>Lunar Pit Patrol</h3>
-        <p>
-            Lunar Pit Patrol is the name of my Senior Capstone group. Our groups project is making a GUI for the USGS's
-            Crater Stats program.
-        </p>
-        <p>Website Coming Soon!</p>
-    </div>
-
-    <h2>Future Project Ideas</h2>
-    <p>These are a couple projects that I have an idea for.</p>
-    <ul>
-        <li>Tactical Fighter</li>
-        <li>Catnip Catcher 3D</li>
-    </ul>
-
-    <div id="tiny-container">
-        <ul class="future-projects">
-            <li>
-                <h3 class="tf">Tactical Fighter</h3>
-                <p class="tf">Tactical Fighter is currently a C# Console Application game that I worked on during the
-                    summer of my Sophomore year of University. This game is a turn based fighting game
-                    with random encounters of four different enemies. The player has a choice of classes between
-                    Paladin, Knight, Ranger, Mage. I plan on implementing this game concept into Unity
-                    and making a graphical version of the game.
-                </p>
-            </li>
-
-            <li>
-                <h3 class="cc">Catnip Catcher 3D</h3>
-                <p class="cc">Catnip Catcher 3D is the 3-Dimensional version of the catnip catcher game I previously
-                    made.
-                </p>
-            </li>
-
+  <head>
+    <title>Caden Tedeschi</title>
+    <link rel="stylesheet" href="resources/styles/style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/resources/Website_Favicon.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header id="home">
+        <ul class="nav">
+          <li><a href="#home">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li id="projects-button"><a href="#projects">Projects</a></li>
+          <li><a href="#education">Other</a></li>
         </ul>
+      </header>
+      <section id="bio">
+        <div id="primary-info">
+          <h1 id="name">Caden Tedeschi</h1>
+          <img src="resources/Headshot.jpeg" height="200px" width="200px" alt="Headshot photo of Caden Tedeschi" id="headshot">
+          <h3 id="role">Software Developer</h3>
+          <h3 id="school">Northern Arizona University</h3>
+        </div>
+        <p id="secondary-info">
+          &emsp;I am an undergraduate student pursuing a Bachelor of Science in Computer
+          Science at Northern Arizona University, with an anticipated graduation
+          in Fall 2024. Currently, I hold a GPA of 3.31. Originally from Phoenix,
+          Arizona, I plan to return to my hometown after graduation. In the
+          meantime, I am based in Flagstaff, Arizona, where I am honing my
+          skills as a game developer and software engineer. Over the past
+          two years, I have completed several projects that demonstrate my
+          growing expertise, with additional projects underway to further
+          showcase my development.
+        </p>
+      </section>
+      <section id="skills">
+        <table>
+          <thead>
+            <tr>
+              <th id="left-header">Front End Skills</th>
+              <th id="middle-left">Back End Skills</th>
+              <th id="middle-right">Mobile Development Skills</th>
+              <th id="right-header">Game Development Skills</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>P/E/R/N Stack</td>
+              <td>Swift</td>
+              <td class="last-col">Unity</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>C/C++</td>
+              <td>SwiftUI</td>
+              <td class="last-col">Unreal Engine 5</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>C#</td>
+              <td></td>
+              <td class="last-col"></td>
+            </tr>
+            <tr>
+              <td>GitHub</td>
+              <td>Java</td>
+              <td></td>
+              <td class="last-col"></td>
+            </tr>
+            <tr>
+              <td>Git</td>
+              <td>Python</td>
+              <td></td>
+              <td class="last-col"></td>
+            </tr>
+            <tr>
+              <td id="bottom-left"></td>
+              <td>MySQL</td>
+              <td></td>
+              <td id="bottom-right"></td>
+            </tr>
+          </tbody>
+        </table>
+        <ul id="soft-skills">
+          <li id="title"><strong>Other Skills</strong></li>
+          <li>Teamwork</li>
+          <li>Communication</li>
+          <li>Detail-oriented</li>
+          <li>Leadership</li>
+          <li>Self Driven</li>
+          <li>Researcher</li>
+        </ul>
+      </section>
+      <section id="projects">
+        <a id="crater" class="grid_panel">
+          <h4>Craterstats</h4>
+          <img class="large-box" width="350px" src="resources/00-demo.png" alt="Craterstats Demo graph">
+        </a>
+        <a id="side" class="grid_panel">
+          <h4>SideQuests</h4>
+          <img class="large-box" width="425px" src="resources/SQReadMe.png" alt="SideQuests website ReadME">
+        </a>
+        <a id="car" class="grid_panel">
+            <h4>CarGame</h4>
+            <img class="large-box" width="384" src="resources/CarGameTitle.png" alt="Title Screen of CarGame">
+        </a>
+        <a id="blog" class="grid_panel">
+            <h4>Blog Space</h4>
+          <img class="large-box" width="264" src="resources/BlogSpace.png" alt="Blog Space sign in">
+        </a>
+      </section>
+      <div class="tab">
+        <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'education')">Education</button>
+        <button class="tablinks" onclick="openTab(event, 'work')">Work Experience</button>
+      </div>
+      <section id="education" class="tabcontent">
+        <h3><strong>Education</strong></h3>
+        <h4>Northern Arizona University</h4>
+        <h4>Bachelor of Science in Computer Science</h4>
+        <h4>Graduating in December 2024</h4>
+        <h4>GPA: 3.31</h4>
+      </section>
+      <section id="work" class="tabcontent">
+        <h3><strong>Work Experience</strong></h3>
+        <h4>Recreation Leader I</h4>
+        <h4>City of Flagstaff</h4>
+        <h5>Apr 2023 - Present</h5>
+        <p>As a Recreation Leader for the City of Flagstaff it is my responsibility to greet patrons, answer phone calls, train new staff members, engage with the public, and perform any additional duties required.</p>
+        <h4>Project Lead</h4>
+        <h4>EMR CPR LLC</h4>
+        <h5>Contract in February 2023</h5>
+        <p>As a project lead it was my job to lead a team of 3 technicians around the Gen office building taking down marked workstations and reassembling them in a neat and similar way as they were in the previous location.</p>
+      </section>
 
-    </div>
-    <h2>Small Projects</h2>
-    <p>These are a few smaller assignments from my Virtual Worlds class</p>
-    <ul>
-        <li>Apple Picker</li>
-        <li class="tabspace demo"><a class="link" href="https://cadented.github.io/CS413_A2/">Demo</a></li>
-        <li>Boids</li>
-        <li class="tabspace demo"><a class="link" href="https://cadented.github.io/CS413_A3/">Demo</a></li>
-        <li>Mission Demolition</li>
-        <li class="tabspace demo"><a class="link" href="https://cadented.github.io/CS413_Mission_Demolition/">Demo</a></li>
-        <li>Space Shooter</li>
-        <li class="tabspace demo"><a class="link" href="https://cadented.github.io/CS413_SpaceShooter/">Demo</a></li>
-    </ul>
+      <!-- POPUPS -->
+      <section class="modal" id="crater-popup">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Craterstats</h2>
+          <p>Craterstats is a program created by the United States Geological Survey (USGS). It is a tool to analyze and plot crater count data for planetary surfacing. The current version is developed by Greg Michael.</p>
+          <p>My contribution to this program is through my Senior Capstone which is sponsored by Trent Hare of the USGS. Me and a team of 4 other classmates are tasked with creating
+            a Graphical User Interface (GUI) for the current version of craterstats. This current version is a python command line application. We have decided to make the GUI using 
+            the flet python library which is an extension of flutter. I have developed the current prototype which can be found in the GitHub Repo listed below. More information and technical documentation about this project can be found at the website below.
+          </p>
+          <a class="project-link" href="https://github.com/LWATLINGTON02/CraterStats-Capstone">GitHub</a>
+          <a class="project-link" href="https://ceias.nau.edu/capstone/projects/CS/2024/LunarPitPatrol_S24/">Project Website</a>
+        </div>
+      </section>
 
-</div>
+      <section class="modal" id="cargame-popup">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>CarGame</h2>
+          <p>CarGame is a game developed by me and 4 classmates for an end of semester project in our Virtual Worlds class. Virtual Worlds is a class to teach about Unity and C# development, while also teaching techniques of base game development.</p>
+          <p>My contribution to this game is developing the car mechanics as well as some basic small details around the game.</p>
+          <p>The next semester I took an independent study course with Professor Ashish Amresh. During this study it was my goal to upgrade the game by making it co-op multiplayer and then online multiplayer. After these new versions were created, I then had to recreate the game using Unity's Entity Component System (ECS). After converting the base game to ECS, another student, Siddharth Subramanian, and I collaborated on making the newly ECS game into a multiplayer game. This study was to help Siddharth in his master’s thesis of implementing generative AI into game development.</p>
+          <a class="project-link" href="https://github.com/CS413-CarGame/CarGame">Group GitHub</a>
+          <a class="project-link" href="https://github.com/CadenTed/CarGameMulti">Study GitHub</a>
+        </div>
+      </section>
 
-<script src="resources/script.js"></script>
-</body>
+      <section class="modal" id="side-popup">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Side Quests</h2>
+          <p>
+            Side Quests is a website that 5 of my classmates and I developed during our sophomore year for our Software Engineering class.
+            The website was designed to be a task tracking website that would reward points and "experience points" once a task is complete.
+            The user would also be able to compare levels and rewards with their friends to entice them to complete tasks.
+          </p>
+          <p>My contribution to this project was to create the profile and rewards page. On this page both the information of the user
+          that is logged in is displayed and the rewards they have received for the tasks completed.</p>
+          <p>While the website itself is no longer active the GitHub page with all the code still is.</p>
+          <a class="project-link">GitHub</a>
+        </div>
+      </section>
+
+      <section class="modal" id="blog-popup">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Blog Space</h2>
+          <p>Blog space is a small website using Express.js for my Web Development II course. This mini project was to create
+            a dynamic website using Express.js and Bootstrap to create posts that are editable and deletable through HTTPS Request Methods
+          </p>
+          <a class="project-link" href="https://github.com/cs386-03/SideQuests">GitHub</a>
+        </div>
+      </section>
+
+    </main>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        document.getElementById("defaultOpen").click();
+      });
+    </script>
+    <script src="./resources/scripts/script.js"></script>
+  </body>
 </html>

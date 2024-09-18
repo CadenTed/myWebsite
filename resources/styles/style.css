@@ -1,0 +1,371 @@
+/* 
+Primary Color: #1E90FF
+Secondary Color: #0A74DA
+Accent Color: #87CEFA
+Neutral Color: #FFF (BACKGROUND)
+Neutral Color: #F5F5F5 (SUBTLE BACKGROUNDS)
+Text Color: #333
+Highlight Color: #008080
+Color Scheme Created by ChatGPT
+ */
+
+:is(h1, h2, h3, h4, h5, h6, th) {
+  font-family: "Crimson Pro", serif;
+}
+
+:is(p, td, ul) {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  overflow-x: hidden;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 25px;
+  padding: 0.6em 2em 0;
+}
+
+.nav {
+  display: inline-block;
+  background-color: #0a74da;
+  height: 4em;
+  width: 100%;
+  border-radius: 3px;
+  padding: 0.5em;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+#projects-button {
+  background-color: #1e90ff;
+  height: 100%;
+  box-shadow: 0 5px 5px black;
+  border-radius: 3px;
+  position: sticky;
+}
+
+#soft-skills li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: 1fr / 1fr / 1fr;
+  gap: 8px;
+  justify-content: center;
+}
+
+.large-box {
+  background-color: #0a74da;
+  border-radius: 3px;
+  color: #f5f5f5;
+}
+
+.large-box h4 {
+  text-align: center;
+}
+
+.small-box {
+  background-color: #0a74da;
+  height: 275px;
+  width: 275px;
+  border-radius: 3px;
+  color: #f5f5f5;
+}
+
+.small-box h4 {
+  text-align: center;
+}
+
+.grid_panel {
+  border-radius: 3px;
+  border: 3px solid #0a74da;
+  text-align: center;
+  background-color: #0a74da;
+  color: #f5f5f5;
+}
+
+#crater {
+  grid-column: 1;
+  grid-row: 1;
+  border-radius: 3px;
+  border: 3px solid #0a74da;
+  text-align: center;
+  background-color: #0a74da;
+  color: #f5f5f5;
+}
+
+#crater:hover {
+  cursor: pointer;
+  box-shadow: 0 0 3px 2px rgba(10, 116, 218, 0.75);
+}
+
+#side {
+  grid-column: 2;
+  grid-row: 1;
+
+  height: 345px;
+}
+
+#side:hover {
+  cursor: pointer;
+  box-shadow: 0 0 3px 2px rgba(10, 116, 218, 0.75);
+}
+
+#car {
+  grid-column: 3;
+  grid-row: 1;
+  border-radius: 3px;
+  border: 3px solid #0a74da;
+  text-align: center;
+  background-color: #0a74da;
+  color: #f5f5f5;
+  height: 300px;
+}
+
+#car:hover {
+  cursor: pointer;
+  box-shadow: 0 0 3px 2px rgba(10, 116, 218, 0.75);
+}
+
+#blog {
+  grid-column: 1;
+  grid-row: 2;
+  width: 275px;
+}
+
+#blog:hover {
+  cursor: pointer;
+  box-shadow: 0 0 3px 2px rgba(10, 116, 218, 0.75);
+}
+
+table {
+  margin: 0 auto;
+  table-layout: fixed;
+  width: 80%;
+  border: 2px solid #333;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  border-spacing: 0;
+}
+
+tr {
+  height: 70%;
+}
+
+tr:nth-child(even) {
+  background-color: #87cefa;
+}
+
+td {
+  padding: 1em;
+  border-right: 2px solid rgba(51, 51, 51, 0.5);
+}
+
+th {
+  border-bottom: 2px solid #333;
+  padding: 0.75em;
+  background-color: #1e90ff;
+  color: #f5f5f5;
+}
+
+#bottom-left {
+  border-radius: 0 0 0 18px;
+}
+
+#bottom-right {
+  border-radius: 0 0 18px 0;
+  border-right: none;
+}
+
+#left-header {
+  border-right: 2px solid #333;
+  border-radius: 18px 0 0 0;
+}
+
+#right-header {
+  border-right: 0;
+  border-radius: 0 18px 0 0;
+}
+
+#middle-left {
+  border-right: 2px solid #333;
+}
+
+#middle-right {
+  border-right: 2px solid #333;
+}
+
+.last-col {
+  border-right: none;
+}
+
+#soft-skills {
+  margin: 4em auto;
+  padding: 1em;
+  text-align: center;
+}
+
+#soft-skills #title {
+  background-color: #0a74da;
+}
+
+#soft-skills li {
+  background-color: #87cefa;
+  padding: 0.75em;
+  border-radius: 14px;
+  margin: 0 0.5em;
+}
+
+#headshot {
+  border-radius: 50%;
+  margin-left: 1em;
+  border: 2px solid #333;
+}
+
+#name {
+  padding-left: 1.65em;
+}
+
+#role {
+  padding-left: 2em;
+}
+
+#school {
+  padding-left: 1em;
+}
+
+#primary-info {
+  display: inline-block;
+}
+
+#secondary-info {
+  display: inline-block;
+  width: 80%;
+  padding-left: 4em;
+  text-align: left;
+  line-height: 200%;
+  vertical-align: 250%;
+}
+
+#bio {
+  margin-bottom: 4em;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 3em;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #0a74da;
+  background-color: #0a74da;
+  margin: 3em 3em 0 3em;
+  border-radius: 18px 18px 0 0;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: #333;
+  font-family: "Crimson Pro", serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #0a74da;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #87cefa;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  margin: 0 3em 3em 3em;
+  animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.project-link {
+  background-color: #87CEFA;
+  padding: 0.75em;
+  border-radius: 18px;
+  text-decoration: none;
+  color: #333;
+}
+
+.project-link:hover {
+  background-color: #0a74da;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.project-link:visited {
+  text-decoration: none;
+  color: #333;
+}
