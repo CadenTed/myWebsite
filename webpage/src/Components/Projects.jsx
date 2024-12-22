@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/projects.css";
 import craterstatsIcon from "../images/Craterstats-Icon.ico";
 import savorlyLogo from "../images/savorly-logo.png";
+import carGameMenu from "../images/CarGameTitle.png";
 
 function Projects() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -53,10 +54,10 @@ function Projects() {
             versions included: Multiplayer, ECS and ECS Multiplayer. ECS is
             Unity's Entity Component System with they Data Oriented Technology
             Stack (DOTS).`,
-      img: ``,
+      img: carGameMenu,
       alt: `CarGame Menu`,
       linksTitles: ["Github", "Play Game", "ECS/Multiplayer Github"],
-      links: [],
+      links: ['https://github.com/CS413-CarGame/CarGame', 'https://cs413-cargame.github.io/CarGame/', 'https://github.com/CadenTed/CarGameMulti'],
     },
   ];
 
@@ -72,7 +73,7 @@ function Projects() {
 
   return (
     <div>
-      <h3 className="title">Projects</h3>
+      <h3 className="title" id="projects">Projects</h3>
 
       <div className="slideshow-container">
         {/* Left Arrow */}

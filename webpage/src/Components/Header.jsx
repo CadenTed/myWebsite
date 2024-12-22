@@ -25,25 +25,20 @@ function Header() {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
-              <Link className="nav-link text-light" to="#">
-                Home
-              </Link>
-            </li>
             <li className="nav-item">
-              <Link className="nav-link text-light" to="#">
+              <a className="nav-link text-light" href="#about-me">
                 About me
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light" to="#">
+              <a className="nav-link text-light" href="#projects">
                 Projects
-              </Link>
+              </a>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link text-light' to='#'>
+              <a className='nav-link text-light' href='#contact'>
                 Contact Me
-              </Link>
+              </a>
             </li>
         
           </ul>

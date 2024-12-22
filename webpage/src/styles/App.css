@@ -1,7 +1,7 @@
 .bg {
   background: radial-gradient(circle, #170d33, #15181c);
   color: whitesmoke;
-  min-height: 200vh;
+  min-height: 1000vh;
 }
 
 .App {
