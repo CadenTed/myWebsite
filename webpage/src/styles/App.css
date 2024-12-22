@@ -1,3 +1,9 @@
+.bg {
+  background: radial-gradient(circle, #170d33, #15181c);
+  color: whitesmoke;
+  min-height: 200vh;
+}
+
 .App {
   text-align: center;
 }

@@ -1,0 +1,13 @@
+.bio {
+   width: 80%;
+}
+
+.area {
+   margin-top: 6em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2em;
+   flex-direction: column;
+   
+}

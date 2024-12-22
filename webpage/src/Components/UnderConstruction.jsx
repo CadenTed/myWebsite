@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./styles/UnderConstruction.css";
+import "../styles/construction.css";
 
 const App = () => {
   const [timeLeft, setTimeLeft] = useState(getTimeRemaining());
@@ -28,7 +28,7 @@ const App = () => {
   return (
     <div className="construction-page">
       <h1>🚧 Website Under Construction 🚧</h1>
-      <p>We’re working hard to bring you a better experience!</p>
+      <p>My portfolio should be ready to view before or at the New Year!</p>
       <div className="countdown">
         <h2>Coming Soon</h2>
         <div className="time">
