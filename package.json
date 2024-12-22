@@ -1,5 +1,5 @@
 {
-  "homepage": "https://cadented.github.io/myWebsite/",
+  "homepage": "https://cadented.github.io/myWebsite",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"

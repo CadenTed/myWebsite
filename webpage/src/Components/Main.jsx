@@ -5,6 +5,7 @@ import "../styles/main.css";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Skills from "./Skills";
 
 function Main() {
   return (
@@ -23,7 +24,7 @@ function Main() {
         />
       </div>
       <AboutMe />
-      {/* TODO - ADD SKILLS SECTION */}
+      <Skills />
       <Projects />
       <Contact />
       {/* TODO - ADD Smaller Projects */}
