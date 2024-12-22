@@ -80,3 +80,15 @@
    font-size: 1em;
    margin: 0.5em;
 }
+
+.section {
+  position: relative;
+}
+
+.section::before {
+  content: "";
+  display: block;
+  height: 60px;
+  margin-top: -60px;
+  visibility: hidden;
+}

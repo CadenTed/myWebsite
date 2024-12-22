@@ -1,11 +1,12 @@
 .bg {
   background: radial-gradient(circle, #170d33, #15181c);
   color: whitesmoke;
-  min-height: 1000vh;
+  min-height: 100vh;
 }
 
 .App {
   text-align: center;
+  padding-top: 1px;
 }
 
 .App-logo {

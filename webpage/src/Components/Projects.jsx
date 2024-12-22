@@ -73,7 +73,7 @@ function Projects() {
 
   return (
     <div>
-      <h3 className="title" id="projects">Projects</h3>
+      <h2 className="title section" id="projects">Projects</h2>
 
       <div className="slideshow-container">
         {/* Left Arrow */}

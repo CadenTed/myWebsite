@@ -3,7 +3,7 @@ import "../styles/aboutme.css";
 
 function AboutMe() {
   return (
-    <div className="area" id='about-me'>
+    <div className="area section" id='about-me'>
       <h2>About Me</h2>
       <p className="bio">
         I am a <strong>Northern Arizona University</strong> Alumni with a{" "}

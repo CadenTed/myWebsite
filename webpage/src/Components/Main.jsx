@@ -4,6 +4,7 @@ import image from "../images/Previews-15.jpg";
 import "../styles/main.css";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 function Main() {
   return (
@@ -20,9 +21,12 @@ function Main() {
           width="auto"
           className="portrait"
         />
-        </div>
-        <AboutMe />
-        <Projects />
+      </div>
+      <AboutMe />
+      {/* TODO - ADD SKILLS SECTION */}
+      <Projects />
+      <Contact />
+      {/* TODO - ADD Smaller Projects */}
     </main>
   );
 }

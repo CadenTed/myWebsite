@@ -1,13 +1,24 @@
 .bio {
-   width: 80%;
+  width: 80%;
 }
 
 .area {
-   margin-top: 6em;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 2em;
-   flex-direction: column;
-   
+  margin-top: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  flex-direction: column;
+}
+
+.section {
+  position: relative;
+}
+
+.section::before {
+  content: "";
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+  visibility: hidden;
 }

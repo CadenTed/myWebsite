@@ -6,7 +6,7 @@ import "../styles/header.css";
 
 function Header() {
   return (
-    <nav className="background navbar navbar-expand-lg">
+    <nav className="background navbar fixed-top navbar-expand-lg">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           <img src={logo} height="50" alt="" className="me-1" />
