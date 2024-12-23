@@ -1,15 +1,29 @@
 {
   "files": {
-    "main.css": "/myWebsite/static/css/main.63d6c006.css",
-    "main.js": "/myWebsite/static/js/main.6070714f.js",
+    "main.css": "/myWebsite/static/css/main.ba3716a9.css",
+    "main.js": "/myWebsite/static/js/main.dafcf852.js",
+    "static/media/CarGameTitle.png": "/myWebsite/static/media/CarGameTitle.a67dbce5e409817a62e9.png",
     "static/media/logo.png": "/myWebsite/static/media/logo.45cc01687f27458a4cc9.png",
-    "static/media/logo.svg": "/myWebsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Previews-15.jpg": "/myWebsite/static/media/Previews-15.ea4ce56e0b9442743f05.jpg",
+    "static/media/savorly-logo.png": "/myWebsite/static/media/savorly-logo.460b6b81f86f2f723139.png",
+    "static/media/linux.png": "/myWebsite/static/media/linux.97dcd7a1b417ed44c9d1.png",
+    "static/media/Java_programming_language_logo.png": "/myWebsite/static/media/Java_programming_language_logo.65559c7081cb52053b13.png",
+    "static/media/React-icon.svg.png": "/myWebsite/static/media/React-icon.svg.e3fedf26bb446b09c8a1.png",
+    "static/media/C_Sharp_Logo_2023.png": "/myWebsite/static/media/C_Sharp_Logo_2023.150321b214ca75e0c397.png",
+    "static/media/Bootstrap_logo.svg.png": "/myWebsite/static/media/Bootstrap_logo.svg.4c7fa18f0041b8a6cb27.png",
+    "static/media/Postgresql_elephant.png": "/myWebsite/static/media/Postgresql_elephant.6857047a76a64278cb97.png",
+    "static/media/ISO_C++_Logo.png": "/myWebsite/static/media/ISO_C++_Logo.158ac0f17f08a156fa1f.png",
+    "static/media/pythoned.png": "/myWebsite/static/media/pythoned.d4c35db713e24d54ef17.png",
+    "static/media/javascript.png": "/myWebsite/static/media/javascript.18b4c748135c0ae2f59e.png",
+    "static/media/Craterstats-Icon.ico": "/myWebsite/static/media/Craterstats-Icon.5aaad5d21712a8da3e3f.ico",
+    "static/media/HTML5_Shield.png": "/myWebsite/static/media/HTML5_Shield.9d6471aeed108afe4c0a.png",
+    "static/media/CSS_Shield.png": "/myWebsite/static/media/CSS_Shield.5f9a6869e63d1ff69be3.png",
     "index.html": "/myWebsite/index.html",
-    "main.63d6c006.css.map": "/myWebsite/static/css/main.63d6c006.css.map",
-    "main.6070714f.js.map": "/myWebsite/static/js/main.6070714f.js.map"
+    "main.ba3716a9.css.map": "/myWebsite/static/css/main.ba3716a9.css.map",
+    "main.dafcf852.js.map": "/myWebsite/static/js/main.dafcf852.js.map"
   },
   "entrypoints": [
-    "static/css/main.63d6c006.css",
-    "static/js/main.6070714f.js"
+    "static/css/main.ba3716a9.css",
+    "static/js/main.dafcf852.js"
   ]
 }
