@@ -31,6 +31,11 @@ function Header() {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link text-light" href="#skills">
+                Skills
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link text-light" href="#projects">
                 Projects
               </a>

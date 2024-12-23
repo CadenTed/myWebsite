@@ -1,5 +1,22 @@
 .skill-logo {
-   width: auto;
-   height: 5rem;
-   object-fit: contain;
+    width: auto;
+    height: 5rem;
+    object-fit: contain;
+}
+
+.section {
+   margin-top: 6em;
+    position: relative;
+}
+
+.section::before {
+    content: '';
+    display: block;
+    height: 80px;
+    margin-top: -80px;
+    visibility: hidden;
+}
+
+p {
+    color: whitesmoke;
 }
