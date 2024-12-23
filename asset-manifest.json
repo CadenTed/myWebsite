@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myWebsite/static/css/main.ba3716a9.css",
-    "main.js": "/myWebsite/static/js/main.dafcf852.js",
+    "main.js": "/myWebsite/static/js/main.aec40746.js",
     "static/media/CarGameTitle.png": "/myWebsite/static/media/CarGameTitle.a67dbce5e409817a62e9.png",
     "static/media/logo.png": "/myWebsite/static/media/logo.45cc01687f27458a4cc9.png",
     "static/media/Previews-15.jpg": "/myWebsite/static/media/Previews-15.ea4ce56e0b9442743f05.jpg",
@@ -20,10 +20,10 @@
     "static/media/CSS_Shield.png": "/myWebsite/static/media/CSS_Shield.5f9a6869e63d1ff69be3.png",
     "index.html": "/myWebsite/index.html",
     "main.ba3716a9.css.map": "/myWebsite/static/css/main.ba3716a9.css.map",
-    "main.dafcf852.js.map": "/myWebsite/static/js/main.dafcf852.js.map"
+    "main.aec40746.js.map": "/myWebsite/static/js/main.aec40746.js.map"
   },
   "entrypoints": [
     "static/css/main.ba3716a9.css",
-    "static/js/main.dafcf852.js"
+    "static/js/main.aec40746.js"
   ]
 }
